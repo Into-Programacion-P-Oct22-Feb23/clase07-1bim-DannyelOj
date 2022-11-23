@@ -31,9 +31,13 @@ public class Ejemplo08 {
 
         System.out.println("Ingrese las notas de los estudiantes de su materia");
         while (bandera) {
+            //Aqui ingresamos las variables en este caso las notas y guardamos
+            //en la variable calificion
             System.out.println("Ingrese calificación:");
             calificacion = entrada.nextDouble();
+            //acumulamos la suma
             suma_total = suma_total + calificacion;
+            //contador q indica cuantas veces se repitio el problema
             contador = contador + 1;
 
             entrada.nextLine(); // Ojo usamos el limpiador del scanner (buffer)

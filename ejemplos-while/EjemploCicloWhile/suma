@@ -1,0 +1,19 @@
+run:
+Ingrese el valor a sumar
+8
+Valor ingresado 8
+Ingrese el valor a sumar
+6
+Valor ingresado 6
+Ingrese el valor a sumar
+10
+Valor ingresado 10
+Ingrese el valor a sumar
+5
+Valor ingresado 5
+Ingrese el valor a sumar
+10
+Valor ingresado 10
+La suma final es: 39,00
+El promedio final es: 7,80
+BUILD SUCCESSFUL (total time: 5 seconds)

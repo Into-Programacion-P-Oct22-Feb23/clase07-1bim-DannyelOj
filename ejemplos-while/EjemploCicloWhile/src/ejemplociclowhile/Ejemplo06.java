@@ -29,10 +29,12 @@ public class Ejemplo06 {
 
         System.out.println("Ingrese las notas de los estudiantes de su materia");
         // true 
-        while (bandera) {
+        //while (bandera) {
+        while (bandera==true) {
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
-
+        //estamos haciendo un control para q el valor no pase de "20" 
+        //ejemplificado para q no se cambien las notas del ciclo
             if (calificacion > 20) {
                 calificacion = 20;
             }

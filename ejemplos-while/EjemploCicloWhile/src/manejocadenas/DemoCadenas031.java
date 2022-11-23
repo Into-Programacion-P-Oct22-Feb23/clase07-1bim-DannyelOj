@@ -9,21 +9,22 @@ package manejocadenas;
  *
  * @author reroes
  */
-public class DemoCadenas03 {
+public class DemoCadenas031 {
     public static void main(String[] args) {
-        String pais = "Ecuador";
-        String ciudad = "Loja";
-        String fechaIndependencia = "18 de noviembre";
+        String nombre = "Daniel Martin";
+        String apellido = "Ojeda Condo";
+        int edad = 19;
         String cadenaAcumuladora = "Datos Personales\n";
         
         //acumulacion de cadenas
         
-        cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, pais);
-        
-        cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, ciudad);
+        cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, nombre);
         
         cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, 
-                fechaIndependencia);
+                apellido);
+        
+        cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, 
+                edad);
         
         System.out.printf("%s", cadenaAcumuladora);
         
